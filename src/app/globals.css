@@ -1,26 +1,64 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  --text-color-default: var(--color-neutral-900);
+  --text-color-muted: var(--color-neutral-500);
+  --text-color-inverse: var(--color-neutral-50);
+  --text-color-primary: var(--color-primary);
+  --text-color-secondary: var(--color-secondary);
+  --text-color-accent: var(--color-accent);
+
+  --surface-color: var(--color-neutral-50);
+  --surface-border-color: var(--color-neutral-200);
+}
+
+@theme {
+  --color-neutral-50: #f6f6f8;
+  --color-neutral-200: #d9d9d9;
+  --color-neutral-500: #64748b;
+  --color-neutral-900: #0f172a;
+  --color-neutral-950: #03132d;
+
+  --color-primary: #0e78eb;
+  --color-secondary: #1bc4d0;
+  --color-accent: #f5dea4;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-manrope);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+
+  --text-color-default: var(--color-neutral-50);
+  --text-color-inverse: var(--color-neutral-900);
+
+  --surface-color: var(--color-neutral-900);
+  --surface-border-color: rgba(100, 116, 139, 0.35);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), sans-serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }

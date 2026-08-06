@@ -1,0 +1,15 @@
+export { CloudIcon } from "./CloudIcon";
+export { CodeIcon } from "./CodeIcon";
+export { DesignIcon } from "./DesignIcon";
+export { FlowArrowIcon } from "./FlowArrowIcon";
+export { GearIcon } from "./GearIcon";
+export { ImagePlaceholderIcon } from "./ImagePlaceholderIcon";
+export { InstagramIcon } from "./InstagramIcon";
+export { LinkedInIcon } from "./LinkedInIcon";
+export { LocationIcon } from "./LocationIcon";
+export { MobileIcon } from "./MobileIcon";
+export { PartnershipIcon } from "./PartnershipIcon";
+export { StrategyIcon } from "./StrategyIcon";
+export { SupportIcon } from "./SupportIcon";
+export { WhatsAppIcon } from "./WhatsAppIcon";
+export type { IconProps } from "./icon.types";
