@@ -61,7 +61,7 @@ export function Services() {
           </div>
         </div>
 
-        <div className="mt-32">
+        <div className="mt-32 flex justify-start lg:justify-end">
           <Button
             as="a"
             href={getWhatsAppUrl(CTA_MESSAGE)}
