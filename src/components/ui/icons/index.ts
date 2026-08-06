@@ -1,3 +1,4 @@
+export { CloseIcon } from "./CloseIcon";
 export { CloudIcon } from "./CloudIcon";
 export { CodeIcon } from "./CodeIcon";
 export { DesignIcon } from "./DesignIcon";
@@ -7,6 +8,7 @@ export { ImagePlaceholderIcon } from "./ImagePlaceholderIcon";
 export { InstagramIcon } from "./InstagramIcon";
 export { LinkedInIcon } from "./LinkedInIcon";
 export { LocationIcon } from "./LocationIcon";
+export { MenuIcon } from "./MenuIcon";
 export { MobileIcon } from "./MobileIcon";
 export { PartnershipIcon } from "./PartnershipIcon";
 export { StrategyIcon } from "./StrategyIcon";
