@@ -4,6 +4,7 @@ import { Footer } from "@/components/composite/Footer";
 import { Navbar } from "@/components/composite/Navbar";
 import { WhatsAppButton } from "@/components/composite/WhatsAppButton";
 import { ThemeProvider, themeInitScript } from "@/providers/theme";
+import { Analytics } from "@vercel/analytics/next"
 import "./globals.css";
 
 const manrope = Manrope({
@@ -97,6 +98,7 @@ export default function RootLayout({
           <Footer />
           <WhatsAppButton />
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
