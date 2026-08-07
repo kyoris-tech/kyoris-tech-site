@@ -31,6 +31,13 @@ export const metadata: Metadata = {
     "desenvolvimento de aplicativos São Bernardo do Campo",
     "software house São Caetano do Sul",
     "desenvolvimento de software Brasil",
+    "fazer site em Diadema",
+    "fazer site em São Paulo",
+    "fazer aplicativos em Diadema",
+    "design em São Paulo",
+    "design em São Bernardo",
+    "design em Brasil",
+    "fazer aplicativos em São Paulo"
   ],
   icons: {
     icon: "/favicon.png",
