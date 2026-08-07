@@ -25,7 +25,7 @@ export function Hero() {
           </Text>
 
           <Text size="base" color="muted" className="max-w-md">
-            Desenvolvemos sites, sistemas, aplicativos e produtos digitais
+            A Kyoris Tech desenvolve sites, sistemas, aplicativos e produtos digitais
             sob medida para empresas de Diadema, São Paulo e do Grande ABC —
             e atendemos negócios em todo o Brasil.
           </Text>
