@@ -1,5 +1,5 @@
+import Image from "next/image";
 import { Container } from "@/components/ui/Container";
-import { MediaPlaceholder } from "@/components/ui/MediaPlaceholder";
 import { SectionLabel } from "@/components/ui/SectionLabel";
 import { Text } from "@/components/ui/Text";
 import { PillarCard } from "./PillarCard";
@@ -30,11 +30,12 @@ export function About() {
         </div>
 
         <div className="mt-10 flex justify-center">
-          <MediaPlaceholder
-            label="K"
-            accent="primary"
-            message="Foto da equipe"
-            className="aspect-[16/9] max-w-3xl"
+          <Image
+            src="/images/team-hands.jpg"
+            alt="Equipe Kyoris Tech"
+            width={6000}
+            height={4000}
+            className="aspect-[16/9] w-full max-w-3xl rounded-3xl object-cover"
           />
         </div>
 
