@@ -22,14 +22,9 @@ export function Projects() {
           </Text>
         </div>
 
-        <div className="mt-10">
-          {projects.map((project, index) => (
-            <ProjectCard
-              key={project.id}
-              project={project}
-              index={index}
-              isLast={index === projects.length - 1}
-            />
+        <div className="mt-10 grid gap-8 md:grid-cols-2">
+          {projects.map((project) => (
+            <ProjectCard key={project.id} project={project} />
           ))}
         </div>
       </Container>
