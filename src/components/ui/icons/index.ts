@@ -1,3 +1,4 @@
+export { CheckIcon } from "./CheckIcon";
 export { CloseIcon } from "./CloseIcon";
 export { CloudIcon } from "./CloudIcon";
 export { CodeIcon } from "./CodeIcon";
