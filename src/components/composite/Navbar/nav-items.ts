@@ -6,6 +6,7 @@ export interface NavItem {
 export const navItems: NavItem[] = [
   { id: "home", label: "Início" },
   { id: "services", label: "Serviços" },
+  { id: "plans", label: "Planos" },
   { id: "projects", label: "Projetos" },
   { id: "method", label: "Método" },
   { id: "about", label: "Sobre" },

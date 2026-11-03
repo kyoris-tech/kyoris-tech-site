@@ -3,6 +3,7 @@ import {
   Contact,
   Hero,
   Method,
+  Plans,
   Projects,
   Services,
 } from "@/components/screens/home";
@@ -12,6 +13,7 @@ export default function Home() {
     <main className="flex flex-1 flex-col">
       <Hero />
       <Services />
+      <Plans />
       <Projects />
       <Method />
       <About />
